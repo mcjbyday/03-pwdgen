@@ -25,7 +25,7 @@ function generatePassword() {
   }
   // error handling to make sure input is a number
   else  {
-    alert("Please ensure you are entering a numeric value and try again.");
+    alert("Please ensure that you enter a numeric value and try again.");
     return;
   }
   
@@ -68,8 +68,10 @@ function generatePassword() {
       pwdCharArray += specialString;
     }
 
-    // TODO error handling if they didn't provide a single group of characters
-    // i.e. if all false letterLowerBool && letterUpperBool && numericCharBool && specialCharBool
+    if (letterLowerBool == false && letterUpperBool == false && numericCharBool == false && specialCharBool == false) {
+      alert("Please ensure that you specify a minimum of one character type (uppercase, lowercase, numeric, and/or special) and try again.");
+      return;
+    }
 
     console.log(pwdCharArray);
 
