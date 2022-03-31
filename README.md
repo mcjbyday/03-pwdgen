@@ -15,8 +15,8 @@
 ## Links
 See it live:<br> [https://mcjbyday.github.io/03-pwdgen/](https://mcjbyday.github.io/03-pwdgen/)
 
-## Screenshot
-![COMING SOON](./screencapture/screencapture.gif)
+## Screencapture
+![Screencapture of web application generating a password of random characters](./screencapture/screencapture.gif)
 
 ## Other
 <p>No external installations are required to view this website. 
