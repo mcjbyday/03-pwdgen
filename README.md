@@ -16,7 +16,7 @@
 See it live:<br> [https://mcjbyday.github.io/03-pwdgen/](https://mcjbyday.github.io/03-pwdgen/)
 
 ## Screenshot
-![COMING SOON](screencapture.gif)
+![COMING SOON](./screencapture/screencapture.gif)
 
 ## Other
 <p>No external installations are required to view this website. 
